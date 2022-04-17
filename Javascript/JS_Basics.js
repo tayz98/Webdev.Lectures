@@ -1,26 +1,17 @@
-// Arrays in Javascript:
+// JS is basically imperative, not declative, i.e. you write statement based algorithms.
+// JS is object-oriented
+// use the developer console in your browser (with F12) to test some JS code.
 
-let array = ["apple", "banana", "orange"];
-typeof array == 'object';
-
-array[1] = "pear";
-array["juicy"] = "lemon";
-console.log(array);
-
-// arrays can be mixed with datatypes
+// different log levels:        it is useful to know them when working with the Developer Console
+console.log("General Message");
+console.debug("Debug message");
+console.info("Info message");
+console.warn("Warn message"); // yellow marked
+console.error("Error message"); // red marked
 
 
-//iterating over object properties
-for (a in  array) console.log(a + ":" + array[a]);
 
-// iterating over the values of iterable object
-for (a in  array) console.log(a);
-
-// Iterating over array elements with forEach()
-array.forEach((item, index) => console.log(index + ":" + item));  // 0:apple, 1:pear 2:orange
-
-// push() -> value to the end of array, push) -> to the beginning, shift()-> move, index() -> ... https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-
+// move the following content to a new file.
 const orders = [
     {"orderId": 1, "value": 100, "country": "DE"},
     {"orderId": 1, "value": 100, "country": "ABC"},
@@ -68,4 +59,4 @@ let birthday = new Date('1970-01-01 11:00:00'); // specific timestamp in local t
 birthday.valueOf(); // 3600000 = 10 * 60 * 60 * 1000 ms, saved internally in UTC
 birthday.toUTCString(); // Thu, 01 Jan 1970 10:00:00 GMT
 birthday.toLocaleString(); // 1.1.1970, 11:00:00
-birthday.toLocaleString("en-US, {timeZone: "America/New_York"});
+
