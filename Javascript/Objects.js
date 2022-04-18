@@ -27,4 +27,3 @@ let c = "1" + 2; // c == '12' the expression becomes concatenated  if you use th
 
 let h = "3" * 5; // h == 15. -,*,/,% converts any non-numeric operand to a number using the Number() function.
 3 * "a"; // == NaN
-

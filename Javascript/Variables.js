@@ -26,6 +26,5 @@ if (1 == 1) { // this is a block scope
 if (true) {
     let c = 33; // c cannot be accessed outside the block. different from var!
 }
-
 // -> to conclude: var has a flaw in it. that's why you should use let instead.
 console.log(a);

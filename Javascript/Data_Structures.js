@@ -68,6 +68,5 @@ let var4 = 2 ** 3; // var 4 is now 8. ** calculates the base to the exponent pow
 // logical operators and bitwise operators is nothing new for me. 
 
 // String Operators
-
 "Alice" < "Bob" // true
 "1" < "Alice" // true

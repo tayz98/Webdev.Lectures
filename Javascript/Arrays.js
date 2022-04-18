@@ -7,7 +7,6 @@ let array =["apple", "banana", "orange"];
 
 const schedule = ['Wake up','Eat', 'Film a video', 'Watch things on netflix'];
 
-
 // the index of an array starts with 0. it can have other properties than numbers
 array[1] = "pear"; // replaces banana
 array["juicy"] = "lemon";
